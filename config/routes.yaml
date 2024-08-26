@@ -1,0 +1,9 @@
+get_todos:
+    path: /api/todolist
+    controller: App\Controller\TodoController::getTodos
+    methods: GET
+
+create_todolist:
+    path: /api/todolist/create
+    controller: App\Controller\TodoController::createTodoList
+    methods: POST
